@@ -3,13 +3,15 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Neumorphic Scientific Calculator</title>
-    <link rel="manifest" href="manifest.json">
-    <meta name="theme-color" content="#2e7d32">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Neumorphic Scientific Calculator</title>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <!-- PWA links -->
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#2e7d32">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
     <style>
         :root {
             --bg: #f0fff4;
@@ -642,7 +644,9 @@
                 <p style="font-size:0.9em; margin-top:5px;">This is a rough estimate. For accurate results, consult a professional.</p>
             </div>`;
         bfResultDiv.style.display = 'block';
-    }
+  }
+}
+
 // Register Service Worker
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", () => {
