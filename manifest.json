@@ -1,6 +1,6 @@
 {
   "name": "Neumorphic Scientific Calculator",
-  "short_name": "SciCalc",
+  "short_name": "MintCalc",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#f0fff4",
@@ -19,3 +19,4 @@
     }
   ]
 }
+
