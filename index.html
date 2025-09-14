@@ -241,8 +241,12 @@
         .clear-history-btn:active {
             box-shadow: inset 3px 3px 6px var(--shadow-dark), inset -3px -3px 6px var(--shadow-light);
         }
-
-
+    
+/* Remove blue tap highlight */
+* {
+  -webkit-tap-highlight-color: transparent; /* Chrome/Safari */
+  -webkit-touch-callout: none;              /* Disable callout on long press */
+}
   </style>
 </head>
 <body>
@@ -654,3 +658,4 @@
   </script>
 </body>
 </html>
+
