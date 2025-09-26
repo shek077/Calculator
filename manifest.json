@@ -1,11 +1,17 @@
 {
   "name": "Neumorphic Scientific Calculator",
   "short_name": "MintCalc",
+  "description": "MintCalc: A sleek scientific calculator with memory, history, and multi-unit converters for all your math needs.",
   "start_url": "./index.html",
+  "scope": "./",
   "display": "standalone",
   "background_color": "#f0fff4",
   "theme_color": "#2e7d32",
   "orientation": "portrait",
+  "lang": "en-US",
+  "dir": "ltr",
+  "categories": ["utilities", "education"],
+  "iarc_rating_id": "iARC-ESRB-EC", 
   "icons": [
     {
       "src": "icons/icon-192.png",
@@ -17,6 +23,23 @@
       "sizes": "512x512",
       "type": "image/png"
     }
-  ]
+  ],
+  "shortcuts": [
+    {
+      "name": "Open Calculator",
+      "short_name": "Calculator",
+      "description": "Go directly to the calculator",
+      "url": "/index.html",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Open Unit Converter",
+      "short_name": "Converter",
+      "description": "Quick access to unit converters",
+      "url": "/converter.html",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false
 }
-
